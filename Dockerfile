@@ -9,6 +9,6 @@ COPY . /app/
 # Package your application
 RUN mvn package
 # Run the main class (assuming your application has a main class)
-CMD ["java", "-jar", "target/interconversions.jar"]
+ENTRYPOINT ["java", "-jar", "target/InClassExercise7_3.jar"]
 # to build: docker build -t javamvn .
 # To run: docker run --name javamvn1 javamvn
