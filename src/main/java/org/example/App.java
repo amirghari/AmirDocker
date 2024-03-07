@@ -16,5 +16,6 @@ public class App {
 
         System.out.println("The sum is: " + sum);
         System.out.println("The difference is: " + difference);
+        System.out.println("kos");
     }
 }
